@@ -1,0 +1,71 @@
+/* social media links section */
+.section.social-links {
+  padding-top: 2rem;
+}
+
+/* Worked with - Clients section */
+.client-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.client-container > div {
+  font-weight: 700;
+  letter-spacing: -0.05rem;
+  opacity: 0.88;
+}
+
+.client-container > span {
+  padding: 0 0.75rem;
+  font-size: 28px;
+}
+
+/* LINK ANIMATION */
+.link-underline-animation {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0)
+    rotateY(0) rotateZ(0) skew(0, 0);
+  -moz-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  -ms-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+}
+
+@media screen and (max-width: 767px) {
+  .section-hero > .container {
+    padding: 0 20px;
+  }
+
+  .social-links {
+    padding-top: 0;
+    font-size: 1.75rem;
+  }
+
+  .social-link {
+    margin: 1rem;
+  }
+
+  .underline-custom {
+    position: absolute;
+    left: 102%;
+    top: auto;
+    right: auto;
+    bottom: 0%;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+  }
+}
