@@ -1,4 +1,55 @@
+.hero-container {
+  display: flex;
+  padding: 1rem;
+  margin: auto;
+  /* max-width: 2000px; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .hero-picture {
+  flex: 3;
+  width: 55%;
   max-width: 800px;
-  margin: 0.75rem auto;
+  margin: 1.5rem;
+}
+
+.resume-cta-container {
+  flex: 2 1;
+  display: flex;
+  margin: 1.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 450px;
+  min-width: 350px;
+}
+
+.resume-cta-container > h5 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.resume-cta-container > a {
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 0;
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0);
+  transition: 175ms ease-in;
+}
+
+.resume-cta-container > a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 1040px) {
+  .resume-cta-container {
+    max-width: 90vw;
+  }
 }
