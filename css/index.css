@@ -69,3 +69,71 @@
     background-color: #000;
   }
 }
+
+/* RARETY CASE STUDY PAGE */
+
+.section.research {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfb;
+}
+
+.padding {
+  padding: 2rem 3rem;
+}
+
+.section.research h3 {
+  text-align: center;
+  padding: 1rem 0 2rem;
+  font-weight: 500;
+}
+
+.section.research p {
+  font-weight: 400;
+  max-width: 800px;
+}
+
+.section.personas {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.persona {
+  margin-top: 3rem;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+ul {
+  list-style-type: "—   ";
+}
+
+.section.personas p,
+li {
+  font-weight: 300;
+  max-width: 800px;
+  line-height: 139%;
+  font-size: 1.25rem;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.section.personas h5 {
+  margin-top: 2.25rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+hr {
+  height: 1px;
+  width: 65%;
+  max-width: 350px;
+  border: 0;
+  background: #000000;
+  margin: 0 auto 2.75rem 0;
+}
