@@ -44,6 +44,51 @@
     rotateZ(0) skew(0, 0);
 }
 
+/* HEaDING STUFF */
+hr {
+  height: 1px;
+  width: 100%;
+  max-width: 450px;
+  border: 0;
+  background: #000000;
+}
+
+.heading-group {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 5rem 0;
+}
+
+.heading-group p {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 139%;
+  letter-spacing: 0.01em;
+}
+
+.right {
+  justify-content: flex-end;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.heading-group.left hr {
+  margin: 0 auto 2.75rem 0;
+}
+
+.heading-group.right hr {
+  margin: 0 0 2.75rem auto;
+}
+
+/* ANIMATION SLIDE IN */
+
 @media screen and (max-width: 767px) {
   .section-hero > .container {
     padding: 0 20px;
@@ -72,7 +117,7 @@
 
 /* RARETY CASE STUDY PAGE */
 
-.section.research {
+.center-blurb {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,18 +129,19 @@
   padding: 2rem 3rem;
 }
 
-.section.research h3 {
+.center-blurb h3 {
   text-align: center;
   padding: 1rem 0 2rem;
   font-weight: 500;
 }
 
-.section.research p {
+.center-blurb p {
   font-weight: 400;
   max-width: 800px;
+  text-align: left;
 }
 
-.section.personas {
+.personas {
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -109,9 +155,10 @@
 
 ul {
   list-style-type: "—   ";
+  margin: unset;
 }
 
-.section.personas p,
+.personas p,
 li {
   font-weight: 300;
   max-width: 800px;
@@ -120,20 +167,26 @@ li {
 }
 
 li {
+  line-height: 142%;
   margin-bottom: 15px;
 }
 
-.section.personas h5 {
+.personas h5 {
   margin-top: 2.25rem;
   font-weight: 700;
   font-size: 1.25rem;
 }
 
-hr {
-  height: 1px;
-  width: 65%;
-  max-width: 350px;
-  border: 0;
-  background: #000000;
-  margin: 0 auto 2.75rem 0;
+/* artifacts */
+.artifacts-container {
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.artifacts-container > img {
+  margin: 2rem 0;
+}
+
+.final {
+  padding-bottom: 65px;
 }
