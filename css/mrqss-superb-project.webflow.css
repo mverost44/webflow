@@ -157,6 +157,7 @@ figcaption {
   margin-left: 40px;
   padding: 10px 20px;
   text-decoration: none;
+  color: #fff;
 }
 
 .nav-link:hover {
@@ -441,20 +442,7 @@ figcaption {
   bottom: 0%;
   z-index: -1;
   height: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#fff),
-    color-stop(21%, hsla(0, 0%, 100%, 0.88)),
-    color-stop(91%, hsla(0, 0%, 100%, 0))
-  );
-  background-image: linear-gradient(
-    180deg,
-    #fff,
-    hsla(0, 0%, 100%, 0.88) 21%,
-    hsla(0, 0%, 100%, 0) 91%
-  );
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .grid-6 {
@@ -754,20 +742,6 @@ figcaption {
   bottom: 0%;
   z-index: -1;
   height: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#000),
-    color-stop(21%, rgba(0, 0, 0, 0.88)),
-    color-stop(91%, transparent)
-  );
-  background-image: linear-gradient(
-    180deg,
-    #000,
-    rgba(0, 0, 0, 0.88) 21%,
-    transparent 91%
-  );
 }
 
 .nav-bg-black.light {
@@ -1996,6 +1970,7 @@ figcaption {
     font-size: 24px;
     font-weight: 700;
     text-align: left;
+    color: #fff;
   }
 
   .footer {
@@ -2141,8 +2116,8 @@ figcaption {
   }
 
   .menu-button.w--open {
-    background-color: #fbfbfb;
-    color: #000;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
   }
 
   .menu-button.black {
@@ -2283,6 +2258,7 @@ figcaption {
   .nav-link {
     padding-top: 10px;
     padding-bottom: 10px;
+    color: #fff;
   }
 
   .footer {
